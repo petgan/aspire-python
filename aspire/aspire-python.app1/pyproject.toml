@@ -1,0 +1,20 @@
+[project]
+name = "aspire-python-app1"
+version = "0.1.0"
+description = "aspire-python-app1 - Hello World"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "opentelemetry-distro[otlp]>=0.52b1",
+    "opentelemetry-instrumentation-asyncio==0.52b1",
+    "opentelemetry-instrumentation-dbapi==0.52b1",
+    "opentelemetry-instrumentation-grpc==0.52b1",
+    "opentelemetry-instrumentation-logging==0.52b1",
+    "opentelemetry-instrumentation-requests==0.52b1",
+    "opentelemetry-instrumentation-sqlite3==0.52b1",
+    "opentelemetry-instrumentation-threading==0.52b1",
+    "opentelemetry-instrumentation-urllib==0.52b1",
+    "opentelemetry-instrumentation-urllib3==0.52b1",
+    "opentelemetry-instrumentation-wsgi==0.52b1",
+    "truststore>=0.10.1",
+]

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="aspire-python.ApiService/aspire-python.ApiService.csproj" />
+  <Project Path="aspire-python.AppHost/aspire-python.AppHost.csproj" />
+  <Project Path="aspire-python.ServiceDefaults/aspire-python.ServiceDefaults.csproj" />
+  <Project Path="aspire-python.Web/aspire-python.Web.csproj" />
+</Solution>
