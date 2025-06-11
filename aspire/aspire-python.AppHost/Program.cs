@@ -16,8 +16,9 @@ var valKey = builder.AddValkey
     (
         "aspire-python-django1-valkey"
     )
+    .WithLifetime(ContainerLifetime.Persistent)
     .WithDataVolume()
-    .WithEndpointProxySupport(false);
+    .WithEndpointProxySupport(true);
 #pragma warning restore ASPIREPROXYENDPOINTS001 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
                                                // .WithHttpEndpoint(targetPort: 8000)
                                                // // Https requests CA Store
